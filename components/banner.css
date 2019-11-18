@@ -1,0 +1,38 @@
+.banner a {
+  padding: 12px 24px;
+  background: #F91C7C;
+  border-radius: 20px;
+  color: lightgray;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.button:hover{
+  color: gray;
+  display: inline-block;
+  transform: scale(1.5);
+}
+
+
+.banner {
+  background-size: cover;
+  width: 100%;
+  height: 50%;
+  margin: 0;
+  padding: 5% 0%;
+  text-align: center;
+  background-position: center;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/*.banner:hover{
+  background-color: black;
+  opacity: 0.5;*/
+
+}
+
+/*#banner-text:hover{
+  color: white;
+}*/
+
+

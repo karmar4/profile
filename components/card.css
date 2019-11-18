@@ -1,0 +1,28 @@
+.card {
+  display: flex;
+  height: 120px;
+  background: white;
+  padding: 16px;
+  font-family: 'Raleway', sans-serif;
+  align-items: center;
+}
+
+.card img {
+  height: 100%;
+  width: 120px;
+  object-fit: cover;
+  vertical-align: middle;
+  margin-right: 2%;
+}
+
+#pink-drop-shadow {
+  box-shadow: 16px 16px #E9B2BA;
+}
+
+#yellow-drop-shadow {
+  box-shadow: 16px 16px yellow;
+}
+
+#blue-drop-shadow {
+  box-shadow: 16px 16px #5AF1E6;
+}

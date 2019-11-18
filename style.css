@@ -1,13 +1,12 @@
-
-
-.container{
-  width: 100vw;
-}
+@import url("components/card.css");
+@import url("components/footer.css");
+@import url("components/banner.css");
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
     width: 700px;
+    background-image: URL(https://i.pinimg.com/736x/74/a7/ce/74a7cec5bc22c6c9cf0a90d57a8ad6b1.jpg);
   }
 }
 @media (max-width: 720px) {
@@ -37,86 +36,18 @@ p, a {
   margin-bottom: 30px;
 }
 
-.banner a {
-  padding: 12px 24px;
-  background: #F91C7C;
-  border-radius: 20px;
-  margin: 20px;
-  color: lightgray;
-  text-decoration: none;
-
+.body-container{
+  display: flex;
+  flex-direction: column;
+  margin: 9%;
+  height: 100vh;
+  justify-content: space-between;
 }
 
-
-.banner a:hover{
-color: gray;
-text-decoration: none;
-}
-
-
-.banner {
+.container{
+  width: 100vw;
+  background-color: #A29CFD;
   background-size: cover;
-  width: 100%;
-  height: 50%;
-  margin: 0;
-  padding: 50px 0px 50px 0px;
-  color: white;
-  text-align: center;
-  background-position: center;
-}
-
-
-.footer {
-  background: #F4F4F4;
-  text-align: center;
-  padding: 5px;
-  margin: 50px 0px 0px 0px;
-}
-.footer ul {
-font-size: 24px;
-  padding: 0px 10px;
-}
-
-.footer li {
-  text-align: center;
-  text-decoration: none;
-  list-style: none;
-  display: inline-block;
-  margin: 0px 30px
-
-}
-
-.footer li > a {
-  color: black;
-  text-decoration: none;
-}
-
-.card {
-  height: 120px;
-  background: white;
-  padding: 16px;
-  margin: 32px 60px 32px 50px;
-  font-family: 'Raleway', sans-serif;
-  vertical-align: middle;
-}
-
-#pink-drop-shadow {
-  box-shadow: 16px 16px pink;
-}
-
-#yellow-drop-shadow {
-  box-shadow: 16px 16px yellow;
-}
-
-#blue-drop-shadow {
-  box-shadow: 16px 16px lightblue;
-}
-
-.card img {
-  height: 100%;
-  width: 120px;
-  object-fit: cover;
-  vertical-align: middle;
 }
 
 
