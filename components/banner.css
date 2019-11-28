@@ -5,34 +5,39 @@
   color: lightgray;
   text-decoration: none;
   display: inline-block;
+  transition-duration: 0.3s;
 }
 
 .button:hover{
-  color: gray;
   display: inline-block;
-  transform: scale(1.5);
+  transform: scale(1.2);
 }
 
 
 .banner {
   background-size: cover;
-  width: 100%;
+  width: 95%;
   height: 50%;
   margin: 0;
   padding: 5% 0%;
   text-align: center;
   background-position: center;
   color: rgba(255, 255, 255, 0.9);
+  transition-duration: 0.7s;
 }
 
-/*.banner:hover{
+.banner:hover{
   background-color: black;
-  opacity: 0.5;*/
-
+  opacity: 0.5;
 }
 
-/*#banner-text:hover{
+.banner:hover #banner-text{
   color: white;
-}*/
+  opacity: 1;
+}
+
+#banner-text{
+  opacity: 0.7
+}
 
 
